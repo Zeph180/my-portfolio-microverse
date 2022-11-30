@@ -1,1 +1,19 @@
 #container { display: flex; }
+nav {
+    padding-top: 15px;
+}
+@media only screen and (max-width: 768px)  {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: ;
+    }
+
+    .fa-bars {
+        color: blue;
+    }
+
+    .fa-bars:hover {
+        opacity: 0.5;
+    }
+}
