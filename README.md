@@ -49,11 +49,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello-microverse <a name="about-project"></a>
+# 📖 my-portfolio-microverse <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**hello-microverse** is a small project to help master all the tools and best practices learnt in the previous steps.
+**my-portfolio-microverse** is a small project to help master all the tools and best practices learnt in the previous steps.
 
 ## 🛠 Built With <a name="">html and css</a>
 
@@ -72,7 +72,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/Zeph180/hello-microverse.git
+- git clone https://github.com/Zeph180/my-portfolio-microverse.git
 
 - yarn install
 #
