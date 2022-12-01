@@ -35,6 +35,10 @@ nav {
     opacity: 0.5;
   }
 
+  .catch-text-sec {
+    height: 100vh;
+  }
+
   main {
     background-image: url(./assets/headerTitle.svg);
     background-repeat: no-repeat;
@@ -58,6 +62,8 @@ nav {
   }
 
   .about {
+    width: 327px;
+    height: 146px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -89,5 +95,125 @@ nav {
 
   .social-icon:hover {
     width: 25px;
+  }
+
+  .works-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-card {
+    display: grid;
+    width: 327px;
+    height: 552px;
+    padding-left: 7%;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 88px;
+  }
+
+  .work-image-cont {
+    width: 295px;
+    height: 220px;
+    background-color: pink;
+    border-radius: 8px;
+  }
+
+  .work-list {
+    display: flex;
+  }
+
+  .work-list-item {
+    float: left;
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  .canopy {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    color: #344563;
+    padding-top: 5px;
+  }
+
+  .project-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .project-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    width: 295px;
+    height: 76px;
+  }
+
+  .project-cont {
+    width: 90%;
+    align-items: flex-start;
+  }
+
+  .project-cont ul {
+    display: block;
+    list-style: none;
+    margin-left: -40px;
+  }
+
+  .project-cont ul li {
+    float: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    background: #EBEBFF;
+    border-radius: 8px;
+    align-items: center;
+    padding: 4px 12px;
+    color: #6070FF;
+    margin-right: 8px;
+  }
+
+  .project-cont ul li:hover {
+    background-color: blue;
+    color: white;
+  }
+  .see-pjct-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    height: 48px;
+    left: 0px;
+    width: 124px;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    margin-top: 24px;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: 'Poppins';
+    color: #396DF2;
+  }
+
+  .see-pjct-btn:hover {
+    background-color: blue;
+    color: white;
   }
 }
