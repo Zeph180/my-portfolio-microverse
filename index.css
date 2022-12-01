@@ -3,16 +3,26 @@
 #container { display: flex; }
 
 nav {
-  padding-top: 10px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
   nav {
     display: flex;
+    height: 5%;
     justify-content: space-between;
     top: 0;
     width: 100%;
     position: fixed;
+  }
+
+  nav h3 a {
+    font-family: Poppins;
+    color: blue;
+    text-decoration: none;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .fa-bars {
@@ -71,6 +81,7 @@ nav {
   .social-icon {
     float: left;
     margin-left: 10px;
+    color: #344563;
   }
 
   .social-icon:hover {
