@@ -17,10 +17,10 @@ nav {
   }
 
   nav h3 a {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: blue;
     text-decoration: none;
-    font-style: Bold;
+    font-style: bold;
     font-size: 18px;
     line-height: 20px;
     padding-left: 20px;
@@ -53,7 +53,7 @@ nav {
     padding-top: 21%;
     width: 327px;
     height: 150px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .about {
@@ -83,7 +83,7 @@ nav {
   .social-icon {
     float: left;
     margin-left: 20px;
-    color: #505F79;
+    color: #505f79;
   }
 
   .social-icon:hover {
