@@ -35,11 +35,12 @@ nav {
     opacity: 0.5;
   }
 
-  .catch-text-sec {
+  main {
     background-image: url(./assets/headerTitle.svg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+    background-attachment: fixed;
   }
 
   #catch-text-heading {
