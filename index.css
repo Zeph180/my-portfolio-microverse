@@ -46,14 +46,14 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 40px;
+    line-height: 52px;
     display: flex;
     align-items: center;
     padding-top: 21%;
     width: 327px;
     height: 150px;
-    color: #344563;
+    color: #172B4D;
   }
 
   .about {
