@@ -46,13 +46,14 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 16px;
+    line-height: 24px;
     display: flex;
     align-items: center;
     padding-top: 21%;
     width: 327px;
     height: 150px;
+    color: #344563;
   }
 
   .about {
@@ -81,8 +82,8 @@ nav {
 
   .social-icon {
     float: left;
-    margin-left: 10px;
-    color: #344563;
+    margin-left: 20px;
+    color: #505F79;
   }
 
   .social-icon:hover {
