@@ -45,6 +45,7 @@ nav {
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #F7F7F9;
   }
 
   #catch-text-heading {
@@ -94,7 +95,7 @@ nav {
   }
 
   .social-icon:hover {
-    width: 25px;
+    color: #396DF2;
   }
 
   .works-sec {
@@ -215,9 +216,82 @@ nav {
     font-family: 'Poppins';
     color: #396DF2;
   }
+  
+  .resume-btn {
+    width: 162px;
+    margin-top: 35px;
+    margin-left: calc(20% - 228px);
+  }
 
   .see-pjct-btn:hover {
     background-color: blue;
     color: white;
+  }
+
+  .about-me-sec {
+        background-color: red;
+        width: 375px;
+        height: 1125.15px;
+        padding-top: 20%
+  }
+
+  .about-me {
+    background-color: yellow;
+    width: 327px;
+    height: 409px;
+    margin-left: 6%;
+
+  }
+
+  .bio {
+    width: 327px;
+    height: 144px;
+  }
+
+  .lang-header {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lang-header p {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 60px;
+  }
+  
+  .fa-angle-down {
+    margin-right: 15%;
+    color: #5E6C84;
+  }
+
+  .lang-cont {
+    height: 72px;
+  }
+
+  .lang-cont ul {
+    margin-left:-12px;
+  }
+
+  .lang-logo {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 303px;
+    height: 66.72px;
+    background: #F7F7F9;
+    border-radius: 8px;
+  }
+
+  .lang-logo img {
+    margin-right: 20px;
+    margin-left: 10px;
   }
 }
