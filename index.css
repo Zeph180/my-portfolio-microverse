@@ -43,6 +43,8 @@ nav {
     background-size: cover;
     background-color: #fff;
     display: grid;
+    border-radius: 0 0 0 100px;
+    margin-bottom: 80px;
   }
 
   main {
@@ -100,17 +102,16 @@ nav {
   }
 
   .works-sec {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
   }
 
   .work-card {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 327px;
     height: 552px;
-    padding: 16px;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     align-items: center;
@@ -169,8 +170,8 @@ nav {
   }
 
   .project-cont {
+    margin-bottom: w00px;
     width: 90%;
-    align-items: flex-start;
   }
 
   .project-cont ul {
