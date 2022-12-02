@@ -17,7 +17,7 @@ nav {
     position: fixed;
   }
 
-  nav h3 a {
+  nav h1 a {
     font-family: 'Poppins', sans-serif;
     color: blue;
     text-decoration: none;
