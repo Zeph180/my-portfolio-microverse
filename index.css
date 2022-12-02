@@ -302,6 +302,10 @@ nav {
     border-radius: 8px;
   }
 
+  .lang-logo:hover {
+    width: 200px;
+  }
+
   .lang-logo img {
     margin-right: 20px;
     margin-left: 10px;
