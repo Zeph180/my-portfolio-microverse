@@ -36,7 +36,6 @@ nav {
   .fa-bars:hover {
     opacity: 0.5;
   }
-  
 
   .catch-text-sec {
     height: 100vh;
@@ -47,7 +46,6 @@ nav {
     display: grid;
     border-radius: 0 0 0 100px;
     margin-bottom: 80px;
-    height: 604px;
     padding-left: 20%;
     align-self: center;
   }
