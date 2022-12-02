@@ -4,6 +4,7 @@
 
 nav {
   align-items: center;
+  background-color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -37,15 +38,15 @@ nav {
 
   .catch-text-sec {
     height: 100vh;
+    background-image: url(./assets/headerTitle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
   }
 
   main {
-    background-image: url(./assets/headerTitle.svg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #F7F7F9;
+    background-color: #e5e5e5;
+
   }
 
   #catch-text-heading {
@@ -114,6 +115,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 88px;
+    background: #ffffff
   }
 
   .lng-wrk-card {
@@ -229,14 +231,14 @@ nav {
   }
 
   .about-me-sec {
-        background-color: red;
         width: 375px;
         height: 1125.15px;
-        padding-top: 20%
+        padding-top: 20%;
+        background: #ffffff
   }
 
   .about-me {
-    background-color: yellow;
+    back
     width: 327px;
     height: 409px;
     margin-left: 6%;
@@ -247,8 +249,11 @@ nav {
     width: 327px;
     height: 144px;
   }
-
-  .lang-header {
+  rty {
+    background-color: #396DF2;
+  }
+  
+  .drop-header {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -258,21 +263,34 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: 24px;
+    border-bottom: 1px solid #acb7C3;
+    width: 327px;
   }
 
-  .lang-header p {
-    height: 24px;
-    margin-left: 24px;
-    margin-right: 60px;
+  .drop-header-active {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
   }
   
-  .fa-angle-down {
+  .arrow {
     margin-right: 15%;
     color: #5E6C84;
   }
 
   .lang-cont {
+    display: flex;
+    flex-direction: column;
     height: 72px;
+
   }
 
   .lang-cont ul {
