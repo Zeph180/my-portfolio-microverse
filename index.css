@@ -42,6 +42,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #fff;
+    display: grid;
   }
 
   main {
@@ -99,22 +100,22 @@ nav {
   }
 
   .works-sec {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
   }
 
   .work-card {
     display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
     width: 327px;
     height: 552px;
-    padding-left: 7%;
+    padding: 16px;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 88px;
     background: #fff;
+    gap: 12px;
   }
 
   .lng-wrk-card {
@@ -124,7 +125,6 @@ nav {
   .work-image-cont {
     width: 295px;
     height: 220px;
-    background-color: pink;
     border-radius: 8px;
   }
 
@@ -208,7 +208,6 @@ nav {
     line-height: 24px;
     height: 48px;
     left: 0;
-    width: 124px;
     border: 1px solid #6070ff;
     border-radius: 8px;
     margin-top: 24px;
