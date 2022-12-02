@@ -4,7 +4,7 @@
 
 nav {
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,12 +41,11 @@ nav {
     background-image: url(./assets/headerTitle.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   main {
     background-color: #e5e5e5;
-
   }
 
   #catch-text-heading {
@@ -96,7 +95,7 @@ nav {
   }
 
   .social-icon:hover {
-    color: #396DF2;
+    color: #396df2;
   }
 
   .works-sec {
@@ -109,13 +108,13 @@ nav {
     width: 327px;
     height: 552px;
     padding-left: 7%;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 16px;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 88px;
-    background: #ffffff
+    background: #fff;
   }
 
   .lng-wrk-card {
@@ -160,7 +159,7 @@ nav {
   }
 
   .project-desc {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -183,17 +182,17 @@ nav {
 
   .project-cont ul li {
     float: left;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    background: #EBEBFF;
+    background: #ebebff;
     border-radius: 8px;
     align-items: center;
     padding: 4px 12px;
-    color: #6070FF;
+    color: #6070ff;
     margin-right: 8px;
   }
 
@@ -201,24 +200,25 @@ nav {
     background-color: blue;
     color: white;
   }
+
   .see-pjct-btn {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     height: 48px;
-    left: 0px;
+    left: 0;
     width: 124px;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     border-radius: 8px;
     margin-top: 24px;
     background-color: white;
     text-align: center;
     letter-spacing: 0.03em;
-    font-family: 'Poppins';
-    color: #396DF2;
+    font-family: 'Poppins', sans-serif;
+    color: #396df2;
   }
-  
+
   .resume-btn {
     width: 162px;
     margin-top: 35px;
@@ -231,28 +231,23 @@ nav {
   }
 
   .about-me-sec {
-        width: 375px;
-        height: 1125.15px;
-        padding-top: 20%;
-        background: #ffffff
+    width: 375px;
+    height: 1125.15px;
+    padding-top: 20%;
+    background: #fff;
   }
 
   .about-me {
-    back
     width: 327px;
     height: 409px;
     margin-left: 6%;
-
   }
 
   .bio {
     width: 327px;
     height: 144px;
   }
-  rty {
-    background-color: #396DF2;
-  }
-  
+
   .drop-header {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -264,7 +259,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-left: 24px;
-    border-bottom: 1px solid #acb7C3;
+    border-bottom: 1px solid #acb7c3;
     width: 327px;
   }
 
@@ -280,21 +275,20 @@ nav {
     align-items: center;
     padding-left: 24px;
   }
-  
+
   .arrow {
     margin-right: 15%;
-    color: #5E6C84;
+    color: #5e6c84;
   }
 
   .lang-cont {
     display: flex;
     flex-direction: column;
     height: 72px;
-
   }
 
   .lang-cont ul {
-    margin-left:-12px;
+    margin-left: -12px;
   }
 
   .lang-logo {
@@ -304,7 +298,7 @@ nav {
     margin-bottom: 10px;
     width: 303px;
     height: 66.72px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
   }
 
