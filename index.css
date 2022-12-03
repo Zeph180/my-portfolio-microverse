@@ -92,7 +92,7 @@ nav {
 
   .socials-list {
     list-style: none;
-    margin-left: -60px; 
+    margin-left: -60px;
   }
 
   .social-icon {
@@ -227,7 +227,7 @@ nav {
 
   .resume-btn {
     margin-top: 35px;
-    margin-left: calc(10% - 375px/2);
+    margin-left: calc(10% - 375px / 2);
   }
 
   .see-pjct-btn:hover {
