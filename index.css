@@ -4,8 +4,7 @@
 
 nav {
   align-items: center;
-  /* background-color: #fff; */
-  background-color: green;
+  background-color: #fff;
 }
 
 body {
@@ -26,7 +25,9 @@ main {
     align-items: center;
     width: 100%;
     position: fixed;
-    padding-left: 10%;
+    padding-left: 7%;
+    margin: 0;
+    align-self: center;
   }
 
   nav h1 a {
@@ -40,7 +41,7 @@ main {
 
   .fa-bars {
     color: blue;
-    margin-right: 26%;
+    padding-right: 14%;
   }
 
   .fa-bars:hover {
