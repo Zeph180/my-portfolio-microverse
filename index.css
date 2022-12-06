@@ -218,7 +218,7 @@ main {
     color: white;
   }
 
-  .see-pjct-btn {
+  .btn {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -408,8 +408,24 @@ main {
     font-weight: 500;
   }
 
-  .contact-sec button:hover {
-    background-color: #396df2;
-    color: white;
+  .btn:enabled {
+    color: #6070FF;
+    background: #FFFFFF;
+  }
+
+  .btn:hover {
+    color: #FFFFFF;
+    background: #6070FF;
+  }
+
+  .btn:active {
+    color: #FFFFFF;
+    background: #2230D2;
+  }
+
+  .btn:disabled {
+    color: #5E6C84;
+    background: #FFFFFF;
+
   }
 }
