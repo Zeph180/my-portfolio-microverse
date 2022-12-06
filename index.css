@@ -318,4 +318,60 @@ nav {
     margin-right: 20px;
     margin-left: 10px;
   }
+  .contact-sec {
+    background-color: #6070ff;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+  }
+  .contact-sec h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .contact-sec p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem;
+  }
+  .contact-sec form {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .contact-sec input{
+    outline: none;
+    padding: 1rem;
+    border:none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:'poppins', sans-serif;
+    font-size: 17px;
+  }
+
+  .contact-sec textarea{
+    height: 170px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border-bottom: 10px;
+    font-family:'poppins', sans-serif;
+    resize: none;
+    padding:1rem;
+    font-size: 17px;
+  }
+
+  .contact-sec button{
+    width: 140px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family:'poppins', sans-serif;
+    padding:0.7rem 1rem;
+    margin:10px 0;
+    color:#7f8cff;
+    background-color: white;
+  }
 }
