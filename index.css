@@ -242,6 +242,8 @@ nav {
     padding-top: 20%;
     background: #fff;
     border-radius: 0 100px 0 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .about-me {
@@ -293,6 +295,8 @@ nav {
     flex-direction: column;
     height: 72px;
     padding-right: 100px;
+    margin-bottom: 400px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .lang-cont ul {
@@ -308,6 +312,7 @@ nav {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
+    font-size: 15px;
   }
 
   .lang-logo:hover {
@@ -320,14 +325,20 @@ nav {
   }
   .contact-sec {
     background-color: #6070ff;
+    background-image: url(./assets/contactFormShapes-mobile.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 100px 0 0 0;
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
     color:white;
+    margin-top: 100px;
   }
   .contact-sec h3 {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0;
   }
 
   .contact-sec p {
@@ -369,9 +380,10 @@ nav {
     outline: none;
     border-radius: 10px;
     font-family:'poppins', sans-serif;
-    padding:0.7rem 1rem;
+    padding:0.5rem 1rem;
     margin:10px 0;
     color:#7f8cff;
     background-color: white;
+    font-size: 17px;
   }
 }
