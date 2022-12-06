@@ -16,7 +16,6 @@ main {
   background-color: #e5e5e5;
 }
 
-@media only screen and (max-width: 600px) {
   nav {
     display: flex;
     top: 0;
@@ -427,4 +426,3 @@ main {
     color: #5e6c84;
     background: #fff;
   }
-}
