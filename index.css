@@ -383,6 +383,7 @@ main {
   }
 
   .contact-sec textarea {
+    height: 170px;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -406,5 +407,10 @@ main {
     background-color: white;
     font-size: 17px;
     font-weight: 500;
+  }
+
+  .contact-sec button:hover {
+    background-color: #396df2;
+    color: white;
   }
 }
