@@ -381,8 +381,9 @@ nav {
     font-family:'poppins', sans-serif;
     padding:0.5rem 1rem;
     margin:10px 0;
-    color:#7f8cff;
+    color:#6070ff;
     background-color: white;
     font-size: 17px;
+    font-weight: 500;
   }
 }
