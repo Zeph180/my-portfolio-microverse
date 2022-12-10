@@ -511,9 +511,10 @@ nav h1 a {
   /* Projects section */
   .work-card {
     display: flex;
-    height: 60%;
+    height: fit-content;
     width: 85%;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     margin-left: 8.875rem;
     margin-right: 8.875rem;
@@ -636,7 +637,7 @@ nav h1 a {
 
   .contact-sec button {
     margin-left: 32%;
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .contact-sec h3 {
