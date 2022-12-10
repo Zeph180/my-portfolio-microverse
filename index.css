@@ -36,6 +36,7 @@ nav h1 a {
   font-style: bold;
   font-size: 18px;
   line-height: 20px;
+  width: 100px;
 }
 
 .fa-bars {
@@ -112,10 +113,13 @@ nav h1 a {
   float: left;
   margin-left: 20px;
   color: #505f79;
+  font-size: 14px;
+  transition: font-size 2s;
 }
 
 .social-icon:hover {
   color: #396df2;
+  font-size: 25px;
 }
 
 /* PROJECT SECTION */
