@@ -326,9 +326,9 @@ main {
     font-size: 15px;
   }
 
-  .lang-logo:hover {
+  /* .lang-logo:hover {
     width: 200px;
-  }
+  } */
 
   .lang-logo img {
     margin-right: 20px;
@@ -530,5 +530,42 @@ main {
 
     .project-title br {
       display: none;
+    }
+
+    .about-me-sec {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .lang-cont  {
+      width: 50%;
+      background-color: palevioletred;
+      padding-right: 0;
+    }
+
+    .lang-cont ul {
+      display: flex;
+    }
+
+    .lang-cont ul li {
+      flex-direction: column;
+      height: 100px;
+      margin-right: 12px;
+    }
+
+    .arrow {
+      margin-right: 0;
+    }
+
+    .drop-header {
+      width: 94%
+    }
+
+    .about-me h3 br {
+      display: inline;
+    }
+
+    .lang-logo p {
+      color: red;
     }
   }
