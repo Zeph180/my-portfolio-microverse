@@ -106,6 +106,7 @@ main {
   .socials-list {
     list-style: none;
     margin-left: -60px;
+    display: flex;
   }
 
   .social-icon {
@@ -538,19 +539,20 @@ main {
     }
 
     .lang-cont  {
-      width: 50%;
-      background-color: palevioletred;
+      width: 45%;
       padding-right: 0;
     }
 
     .lang-cont ul {
       display: flex;
+      padding-left: 20px;
     }
 
     .lang-cont ul li {
       flex-direction: column;
       height: 100px;
       margin-right: 12px;
+
     }
 
     .arrow {
@@ -561,11 +563,67 @@ main {
       width: 94%
     }
 
+    .about-me-sec {
+      padding-top: 100px;
+      height: 450px;
+    }
+
     .about-me h3 br {
       display: inline;
     }
 
-    .lang-logo p {
-      color: red;
+    .about-me {
+      width: 40%;
     }
+
+    .about {
+      width: 90%;
+      font-size: 14px;
+      height: fit-content;
+    }
+
+    .socials-header {
+      margin-top: 2px;
+    }
+
+    .contact-sec {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-size: contain;
+      background-image: url(./assets/DesktopContactFormBg.svg);
+    }
+
+    .contact-sec div {
+      width: 40%; 
+
+    }
+    .contact-sec p {
+      font-size: 14px;
+    }
+
+    .contact-sec input, textarea {
+      width: 73%;
+      margin-left: 11%;
+      border-radius: 0;
+      font-size: 14px;
+      height: auto;
+      padding: 0.5rem;
+    }
+
+    .contact-sec textarea {
+      font-size: 14px;
+      padding: 0.5rem;
+      border-radius: 0;
+    }
+
+    .contact-sec button {
+      margin-left: 35%;
+      font-size: 14px;
+    }
+
+    .contact-sec h3 {
+      margin-top: 0;
+    }
+  
   }
