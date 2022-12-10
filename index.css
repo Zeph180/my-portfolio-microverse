@@ -59,7 +59,7 @@ main {
     background-size: cover;
     background-color: #fff;
     border-radius: 0 0 0 100px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; 
   }
 
   /* CATCH TEXT SECTION */
@@ -184,14 +184,12 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;
     color: #344563;
     width: 295px;
     height: 76px;
   }
 
   .project-cont {
-    margin-bottom: w00px;
     width: 90%;
   }
 
@@ -201,14 +199,13 @@ main {
     margin-left: -40px;
   }
 
-  .project-cont ul li {
+  .project-cont li {
     float: left;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 0.03em;
     background: #ebebff;
     border-radius: 8px;
     align-items: center;
@@ -241,7 +238,7 @@ main {
 
   .resume-btn {
     margin-top: 35px;
-    margin-left: calc(10% - 375px / 2);
+    margin-left: 0;
   }
 
   .see-pjct-btn:hover {
@@ -464,7 +461,7 @@ main {
       background: #fff;
     }
   
-    .nav li:hover {
+    .nav li:hover { 
       color: #fff;
       background: #6070ff;
     }
@@ -478,4 +475,52 @@ main {
       color: #5e6c84;
       background: #fff;
     }
+
+    /* Projects section */
+    .work-card {
+      display: flex;
+      height: 60%;
+      width: 85%;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 8.875rem;
+      margin-right: 8.875rem;
+    }
+
+    .work-card > * {
+      width: 50%;
+      height: 20.813rem;
+      padding-left: 1rem;
+    }
+
+    .project-desc {
+      font-weight: 400;
+      font-size: 13px;
+      width: 95%;
+      height: fit-content;
+      margin: 0;
+    }
+
+    .work-list {
+      height: fit-content;
+    }
+
+    .work-image-cont img {
+      width: 100%;
+      height: auto;
+    }
+
+    .btn {
+      flex: none;
+      margin-top: 0;
+    }
+
+   .project-cont ul {
+    display: flex;
+   }
+
+   .project-title {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
   }
