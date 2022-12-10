@@ -642,4 +642,8 @@ nav h1 a {
   .contact-sec h3 {
     margin-top: 0;
   }
+
+  .social-icon {
+    font-size: 24px;
+  }
 }
