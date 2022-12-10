@@ -327,10 +327,6 @@ main {
     font-size: 15px;
   }
 
-  /* .lang-logo:hover {
-    width: 200px;
-  } */
-
   .lang-logo img {
     margin-right: 20px;
     margin-left: 10px;
@@ -475,6 +471,35 @@ main {
     .nav li:disabled {
       color: #5e6c84;
       background: #fff;
+    }
+
+    .catch-text-sec {
+      background-image: url(./assets/DesktopHeaderBg.svg);
+      background-position: right;
+      background-size: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 650px;
+    }
+
+    .sec-br {
+      display: none;
+    }
+
+    .catch-text-sec div {
+      width: 65%;
+    }
+
+    #catch-text-heading {
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      height: fit-content;
+    }
+
+    .about {
+      font-size: 14px;
     }
 
     /* Projects section */
