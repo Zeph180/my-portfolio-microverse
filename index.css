@@ -487,6 +487,10 @@ main {
       margin-right: 8.875rem;
     }
 
+    .works-sec > :nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
     .work-card > * {
       width: 50%;
       height: 20.813rem;
@@ -523,4 +527,8 @@ main {
     margin-top: 5px;
     margin-bottom: 0;
   }
+
+    .project-title br {
+      display: none;
+    }
   }
