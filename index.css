@@ -648,7 +648,7 @@ nav h1 a {
     font-size: 24px;
   }
 
-  .project-cont ul li {
-    float: left
+  .project-cont ul {
+    float: left;
   }
 }
