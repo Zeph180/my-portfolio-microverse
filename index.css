@@ -647,4 +647,8 @@ nav h1 a {
   .social-icon {
     font-size: 24px;
   }
+
+  .project-cont ul li {
+    float: left
+  }
 }
