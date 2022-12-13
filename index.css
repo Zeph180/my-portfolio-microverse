@@ -544,7 +544,7 @@ nav h1 a {
 
   .work-image-cont img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .btn {
@@ -636,7 +636,7 @@ nav h1 a {
   }
 
   .contact-sec button {
-    margin-left: 32%;
+    margin-left: 37%;
     font-size: 14px;
   }
 
