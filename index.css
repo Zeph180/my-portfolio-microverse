@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-/* #container { display: flex; } */
-
-/* nav {
-  align-items: center;
-  background-color: #fff;
-} */
-
 body {
   padding: 0;
   margin: 0;
@@ -225,13 +217,11 @@ nav h1 a {
   font-size: 17px;
   line-height: 24px;
   height: 48px;
-  left: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
   margin-top: 24px;
   background-color: white;
   text-align: center;
-  letter-spacing: 0.03em;
   font-family: 'Poppins', sans-serif;
   color: #396df2;
 }
