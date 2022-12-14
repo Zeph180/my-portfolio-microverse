@@ -448,8 +448,9 @@ nav h1 a {
     padding: 0 0.75rem;
   }
 
-  .fa-bars {
-    display: none;
+  .hamburger {
+    color: red;
+    visibility: hidden;
   }
 
   .lang-cont ul {
@@ -636,7 +637,7 @@ nav h1 a {
   }
 
   .contact-sec button {
-    margin-left: 37%;
+    margin-left: 35%;
     font-size: 14px;
   }
 
