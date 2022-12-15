@@ -14,15 +14,21 @@
 <body>
         <header class="header">
             <nav class="nav">
-                <h1><a href="">Kigozi Joseph</a></h1>
-                <i class="fas fa-bars fa-lg"></i>
+                <h1><a href="https://github.com/zeph180" ref="noreferrer">Kigozi Joseph</a></h1>
+                <i class="hamburger fas fa-bars fa-lg"></i>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
         <main>
         <section class="catch-text-sec">
-            <h2 id="catch-text-heading">I'm Kigozi<br/> glad to see <br/> you!</h2>
+            <div>
+                <h2 id="catch-text-heading">I'm Kigozi<br/> glad to see <br/ class="sec-br"> you!</h2>
             <p class="about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-           <div class="socials-cont">
+            <div class="socials-cont">
             <h3 class="socials-header">LET'S CONNECT</h3>
             <ul class="socials-list">
                 <li>
@@ -52,6 +58,7 @@
                 </li>
             </ul>
            </div>
+            </div>
         </section>
         <section class="works-sec">
             <div class="work-card">
@@ -80,7 +87,7 @@
 
             <div class="work-card lng-wrk-card">
                 <div class="work-image-cont">
-                    <img src="./assets/secondPjct.png" alt="first project image">
+                    <img class="project-img" src="./assets/secondPjct.png" alt="first project image">
                 </div>
 
                 <div class="project-cont ">
@@ -154,7 +161,7 @@
             <section class="about-me-sec">
                 <div class="about-me">
                     <h3 class="project-title">About <br> Myself</h3>
-                        <p class="bio about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                    <p class="bio about">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
                     <h3 class="socials-header">LET'S CONNECT</h3>
                     <ul class="socials-list">
                         <li>
@@ -192,9 +199,9 @@
                         <i class="fa fa-angle-down fa-md arrow"></i>
                     </div>
                     <ul>
-                        <li class="lang-logo"><img src="./assets/jsLogo.png" alt="JavaScript logs">JavaScript</li>
-                        <li class="lang-logo"><img src="./assets/htmlLogo.png" alt="html logo">HTML</li>
-                        <li class="lang-logo"><img src="./assets/cssLogo.png" alt="css logo"> CSS</li>
+                        <li class="lang-logo"><img src="./assets/jsLogo.png" alt="JavaScript logs"><p>JavaScript</p></li>
+                        <li class="lang-logo"><img src="./assets/htmlLogo.png" alt="html logo"><p>HTML</p></li>
+                        <li class="lang-logo"><img src="./assets/cssLogo.png" alt="css logo"> <p><CSS/p>CSS</li>
                     </ul>
                     <div class="drop-header">
                         <p>Frameworks</p>
@@ -208,18 +215,20 @@
             </section>
         <section class="contact-cont">
             <section class="contact-sec">
-                <h3>Contact me</h3>
-                <p>
-                    If you have an application you are interested in developing,
-                    a feature that you need built or a project that needs coding.
-                    I’d love to help with it 
-                </p>
-                <form action="https://formspree.io/f/mjvznweg" method="post">
-                    <input name="user-name" type="text" placeholder="Please enter your name" maxlength="30" required>
-                    <input name="user-email" type="email" placeholder="joesmith@gmail.com" required>
-                    <textarea name="user-msg" id="user-msg" cols="30" rows="10" maxlength="500" placeholder="write your message here" required></textarea>
-                    <button type="submit"class="btn">See project</button>
-                </form>
+                <div>
+                    <h3>Contact me</h3>
+                    <p>
+                        If you have an application you are interested in developing,
+                        a feature that you need built or a project that needs coding.
+                        I’d love to help with it 
+                    </p>
+                    <form action="https://formspree.io/f/mjvznweg" method="post">
+                        <input name="user-name" type="text" placeholder="Please enter your name" maxlength="30" required>
+                        <input name="user-email" type="email" placeholder="johndoe@gmail.com" required>
+                        <textarea name="user-msg" id="user-msg" cols="30" rows="10" maxlength="500" placeholder="write your message here" required></textarea>
+                        <button type="submit"class="btn">Get in Touch</button>
+                    </form>
+                </div>
             </section>
         </section>
     </main>
