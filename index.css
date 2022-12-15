@@ -29,6 +29,10 @@ nav {
   background-color: #fff;
 }
 
+nav a {
+  transition: font-size 1s;
+}
+
 nav h1 a {
   font-family: 'Poppins', sans-serif;
   color: blue;
@@ -93,9 +97,6 @@ nav h1 a {
   font-style: normal;
 }
 
-nav a {
-  transition: font-size 1s;
-}
 nav a:hover {
   font-size: 30px;
 }
@@ -122,7 +123,7 @@ nav a:hover {
   margin-left: 20px;
   color: #505f79;
   font-size: 14px;
-  transition: font-size 1s
+  transition: font-size 1s;
 }
 
 .social-icon:hover {
