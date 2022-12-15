@@ -107,6 +107,7 @@ nav h1 a {
   list-style: none;
   margin-left: -60px;
   display: flex;
+  height: 40px;
 }
 
 .social-icon {
@@ -114,7 +115,7 @@ nav h1 a {
   margin-left: 20px;
   color: #505f79;
   font-size: 14px;
-  transition: font-size 2s;
+  transition: font-size 2s
 }
 
 .social-icon:hover {
