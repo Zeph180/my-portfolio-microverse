@@ -93,6 +93,13 @@ nav h1 a {
   font-style: normal;
 }
 
+nav a {
+  transition: font-size 1s;
+}
+nav a:hover {
+  font-size: 30px;
+}
+
 /* .social-icon */
 .socials-header {
   font-family: 'Poppins', sans-serif;
