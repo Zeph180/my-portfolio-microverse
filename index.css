@@ -416,6 +416,10 @@ nav h1 a {
   background: #fff;
 }
 
+label {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .nav {
     margin-right: 7.75rem;
