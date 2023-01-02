@@ -15,8 +15,12 @@ menu.style.cssText = `
 function toggleMenu() {
   if (menu.style.display === 'none') {
     menu.style.display = 'block';
+    hamburger.classList.remove('fa-bars', 'fas');
+    hamburger.classList.add('fa-close', 'fa');
   } else {
     menu.style.display = 'none';
+    hamburger.classList.add('fa-bars', 'fas');
+    hamburger.classList.remove('fa-close', 'fa');
   }
 }
 
