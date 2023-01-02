@@ -161,7 +161,9 @@ nav h1 a {
 }
 
 .work-list-item {
+  font-family: 'Poppins', sans-serif;
   float: left;
+  font-size: 14px;
   margin-left: 10px;
   align-items: center;
 }
