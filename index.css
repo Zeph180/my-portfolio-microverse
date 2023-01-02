@@ -50,6 +50,7 @@ nav h1 a {
 }
 
 .menu-option {
+  font-family: 'Poppins', sans-serif;
   display: block;
   background-color: #396df2;
   padding-left: 7%;
