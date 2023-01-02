@@ -1,13 +1,14 @@
 const menu = document.getElementById('mobile-menu');
 const hamburger = document.getElementById('hamburger');
-const menuOptions = document.querySelectorAll('.menu-option')
+const menuOptions = document.querySelectorAll('.menu-option');
 
 menu.style.cssText = `
   font-style: poppins, sans-serif;
-  margin-top: 30px;
   list-style: none;
-  padding-left: 28px;
+  background-color: white;
   display: none;
+  // padding-left: 7%;
+  width: 100%;
   position: fixed;
 `;
 
@@ -19,7 +20,7 @@ function toggleMenu() {
   }
 }
 
-for(let i = 0; i < menuOptions.length; i++){
+for (let i = 0; i < menuOptions.length; i += 1) {
   menuOptions[i].addEventListener('click', toggleMenu);
 }
 
