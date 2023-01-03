@@ -15,13 +15,21 @@
         <header class="header">
             <nav class="nav">
                 <h1><a href="https://github.com/zeph180" ref="noreferrer">Kigozi Joseph</a></h1>
-                <i class="hamburger fas fa-bars fa-lg"></i>
+                <i id="hamburger" class="hamburger fas fa-bars fa-lg "></i>
                 <ul>
                     <li>Portfolio</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
             </nav>
+            <div id="mobile-menu">
+                <div id="close-btn"><img  class="x-icon" src="./assets/Normal Button-Tertiary-Icons-Icon - Cancel.svg" alt="Cancel button"></div>
+                <div class="menu-options-cont">
+                    <a class="menu-option" href="#portfolio">Portfolio</a>
+                    <a class="menu-option" href="#about">About</a>
+                    <a class="menu-option" href="#contact">Contact</a>
+                </div>
+            </div>
         </header>
         <main>
         <section class="catch-text-sec">
@@ -60,7 +68,7 @@
            </div>
             </div>
         </section>
-        <section class="works-sec">
+        <section class="works-sec" id="portfolio">
             <div class="work-card">
                 <div class="work-image-cont">
                     <img src="./assets/firstPjct.png" alt="first project image">
@@ -158,7 +166,7 @@
             </div>
         </section>
 
-            <section class="about-me-sec">
+            <section class="about-me-sec" id="about">
                 <div class="about-me">
                     <h3 class="project-title">About <br> Myself</h3>
                     <p class="bio about">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -213,7 +221,7 @@
                     </div>
                 </div>
             </section>
-        <section class="contact-cont">
+        <section class="contact-cont" id="contact">
             <section class="contact-sec">
                 <div>
                     <h3>Contact me</h3>
@@ -235,6 +243,6 @@
             </section>
         </section>
     </main>
+    <script src="./js/MobileMenu.js"></script>
 </body>
-
 </html>

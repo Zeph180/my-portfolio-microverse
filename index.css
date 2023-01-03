@@ -36,12 +36,34 @@ nav h1 a {
   padding-right: 14%;
 }
 
+.x-icon {
+  padding-right: 7%;
+  font-size: 24px;
+  float: right;
+  padding-top: 10px;
+}
+
 .fa-bars:hover {
   opacity: 0.5;
 }
 
 .nav ul {
   display: none;
+}
+
+.menu-option {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  padding-left: 7%;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.menu-options-cont {
+  padding-top: 40px;
 }
 
 .catch-text-sec {
@@ -147,7 +169,9 @@ nav h1 a {
 }
 
 .work-list-item {
+  font-family: 'Poppins', sans-serif;
   float: left;
+  font-size: 14px;
   margin-left: 10px;
   align-items: center;
 }
@@ -412,6 +436,26 @@ nav h1 a {
 }
 
 .btn:disabled {
+  color: #5e6c84;
+  background: #fff;
+}
+
+.menu-option:enabled {
+  color: #6070ff;
+  background: #fff;
+}
+
+.menu-option:hover {
+  color: #fff;
+  background: #6070ff;
+}
+
+.menu-option:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.menu-option:disabled {
   color: #5e6c84;
   background: #fff;
 }
