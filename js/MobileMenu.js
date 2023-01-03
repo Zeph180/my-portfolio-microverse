@@ -7,13 +7,13 @@ const nav = document.querySelector('nav');
 menu.style.cssText = `
   font-style: poppins, sans-serif;
   list-style: none;
-  background-color: rgba(100,130,225,.7);
+  background-color:  #001aff9b;
   display: none;
   width: 100%;
   height: 100vh;
   position: fixed;
   top: 0;
-  backdrop-filter: blur(4px)
+  backdrop-filter: blur(4px);
 `;
 
 function openMenu() {

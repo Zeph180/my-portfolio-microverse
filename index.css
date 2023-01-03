@@ -36,7 +36,7 @@ nav h1 a {
   padding-right: 14%;
 }
 
-.fa-close {
+#mobile-menu img {
   padding-right: 7%;
   font-size: 24px;
   float: right;
@@ -59,6 +59,7 @@ nav h1 a {
   font-weight: 600;
   font-size: 28px;
   color: #fff;
+  margin-top: 10px;
 }
 
 .menu-options-cont {
