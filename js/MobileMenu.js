@@ -1,31 +1,34 @@
 const menu = document.getElementById('mobile-menu');
 const hamburger = document.getElementById('hamburger');
 const menuOptions = document.querySelectorAll('.menu-option');
+const closeBtn = document.getElementById('close-btn');
+const nav = document.querySelector('nav');
 
 menu.style.cssText = `
   font-style: poppins, sans-serif;
   list-style: none;
-  background-color: white;
+  background-color: rgba(96,112,225,.7);
   display: none;
-  // padding-left: 7%;
   width: 100%;
+  height: 100vh;
   position: fixed;
+  top: 0;
+  backdrop-filter: blur(4px)
 `;
 
-function toggleMenu() {
-  if (menu.style.display === 'none') {
-    menu.style.display = 'block';
-    hamburger.classList.remove('fa-bars', 'fas');
-    hamburger.classList.add('fa-close', 'fa');
-  } else {
-    menu.style.display = 'none';
-    hamburger.classList.add('fa-bars', 'fas');
-    hamburger.classList.remove('fa-close', 'fa');
-  }
+function openMenu() {
+  menu.style.display = 'block';
+  nav.style.visibility = 'hidden';
+}
+
+function closeMenu() {
+  menu.style.display = 'none';
+  nav.style.visibility = 'visible';
 }
 
 for (let i = 0; i < menuOptions.length; i += 1) {
-  menuOptions[i].addEventListener('click', toggleMenu);
+  menuOptions[i].addEventListener('click', closeMenu);
 }
 
-hamburger.addEventListener('click', toggleMenu);
+closeBtn.addEventListener('click', closeMenu);
+hamburger.addEventListener('click', openMenu);

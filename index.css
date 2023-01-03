@@ -37,8 +37,10 @@ nav h1 a {
 }
 
 .fa-close {
-  padding-right: 14%;
+  padding-right: 7%;
   font-size: 24px;
+  float: right;
+  padding-top: 10px;
 }
 
 .fa-bars:hover {
@@ -52,10 +54,16 @@ nav h1 a {
 .menu-option {
   font-family: 'Poppins', sans-serif;
   display: block;
-  background-color: #396df2;
   padding-left: 7%;
   text-decoration: none;
   color: #344563;
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+}
+
+.menu-options-cont {
+  padding-top: 40px;
 }
 
 .catch-text-sec {
