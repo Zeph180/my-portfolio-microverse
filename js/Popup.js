@@ -40,7 +40,11 @@ projects.forEach((project) => {
   const name = project.projectName;
   temp.classList.add('work-card');
   temp.innerHTML = `
-  <div id="popup" class="popup">
+
+    <div class="work-image-cont">
+        <img src=${project.projectImage.imgUrl} alt=${project.projectImage.alt} >
+    </div>
+    <div id="popup" class="popup">
     <div class="project-cont">
       <div class="popup-header">
         <h6 class="project-title">${project.projectName}</h6>
@@ -69,11 +73,6 @@ projects.forEach((project) => {
         <button type="button" class="btn"><a href=${project.projectLinks[1]}>See source <img src="./assets/GitHub.svg" alt=""><a/></button>
     </div>
   </div>
-
-    <div class="work-image-cont">
-        <img src=${project.projectImage.imgUrl} alt=${project.projectImage.alt} >
-    </div>
-
     <div class="project-cont">
       <h6 class="project-title">${breakTitle(name, temp)}</h6>
       <div class="work-list">

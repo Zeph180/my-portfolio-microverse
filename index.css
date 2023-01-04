@@ -145,7 +145,7 @@ nav h1 a {
   flex-direction: column;
   justify-content: center;
   width: 327px;
-  height: 552px;
+  height: fit-content;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
@@ -616,7 +616,7 @@ label {
   .work-card {
     display: flex;
     height: fit-content;
-    width: 85%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -632,6 +632,38 @@ label {
     width: 50%;
     height: 20.813rem;
     padding-left: 1rem;
+  }
+  
+  .work-image-cont img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #popup {
+    width: 1156px;
+    height: 1163px;
+    border-radius: 16px;
+    padding-left: 0;
+    align-items: center;
+    background-color: lavender;
+  }
+
+  .popup-image-cont {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .popup-image-cont img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .popup-header {
+    width: 1120px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -4%;
   }
 
   .project-desc {
