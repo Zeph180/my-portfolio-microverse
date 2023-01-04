@@ -42,7 +42,10 @@ projects.forEach((project) => {
   temp.innerHTML = `
   <div id="popup" class="popup">
     <div class="project-cont">
-      <h6 class="project-title">${project.projectName}</h6>
+      <div class="popup-header">
+        <h6 class="project-title">${project.projectName}</h6>
+        <img class="close-popup-btn" src="./assets/closePopupBtn.svg" alt="close button">
+      </div>
       <div class="work-list">
       ${project.projectExps.map((projectExp) => `<p class="work-list-item">&#8226; ${projectExp}</p>`)}
       </div>
@@ -91,11 +94,18 @@ projects.forEach((project) => {
 
 const popups = document.querySelectorAll('.popup');
 const seeProjectBtns = document.querySelectorAll('.see-project');
+const closePopupBtns = document.querySelectorAll('.close-popup-btn');
 
 for (let i = 0; i < popups.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
       popups[i].style.visibility = 'visible';
+      popups[i].style.position = 'fixed';
+      popups[i].classList.add('popup-active');
+    };
+    closePopupBtns[i].onclick = function closePopup() {
+      popups[i].style.visibility = 'hidden';
+      popups[i].classList.remove('popup-active');
     };
   }
 }

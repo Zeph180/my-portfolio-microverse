@@ -515,8 +515,17 @@ label {
   width: 80%;
 }
 
-.show-popup {
+.popup-active {
+  margin-bottom: 380%;
+  top: 0;
+  backdrop-filter: blur(4px);
+  position: fixed;
   visibility: visible;
+  }
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: 768px) {
