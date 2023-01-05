@@ -496,7 +496,7 @@ label {
   height: 713px;
   border-radius: 16px;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .popup-image-cont {
@@ -679,7 +679,7 @@ label {
 
   .popup-image-cont {
     width: 100%;
-    height: 80%;
+    height: 50%;
   }
   
   .popup-image-cont img {
