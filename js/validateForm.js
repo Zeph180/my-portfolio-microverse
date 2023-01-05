@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 function validate() {
   const emailInputValue = document.getElementById('email').value;
-  const emailTest = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+  const emailTest = /^[a-z0-9_!#$%&'*+=?`{|}~^.-]+@[a-z0-9.-]+$/gm;
 
-  /* eslint-disable no-unused-vars */
-  document.forms[0].onsubmit = function testEmail(e) {
-    if (emailTest.test(emailInputValue)) {
+  document.forms[0].onsubmit = function submitForm(e) {
+    if (emailInputValue.match(emailTest)) {
       document.getElementById('emailError').innerHTML = 'Expect amazing projects';
       document.getElementById('emailError').style.visibility = 'visible';
       document.getElementById('emailError').style.color = 'blue';
