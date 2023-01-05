@@ -4,7 +4,7 @@ const projects = [
   {
     projectName: '5554 ffffff',
     projectExps: ['Backend Dev', '2015'],
-    projectImage: { alt: 'jfffjfjfj', imgUrl: '../assets/firstPjct.png' },
+    projectImage: { alt: 'jfffjfjfj', imgUrl: './assets/firstPjct.png' },
     projectDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     techs: ['html', 'css', 'javascript'],
     projectLinks: ['https://kigozijosephsuubi.me', 'https://github.com/Zeph180/my-portfolio-microverse'],
@@ -102,7 +102,6 @@ const overPops = document.querySelectorAll('.over-pop');
 const navBar = document.querySelector('.nav');
 const navHolder = navBar;
 
-console.log(navHolder);
 for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
