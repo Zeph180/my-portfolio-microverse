@@ -105,7 +105,7 @@ for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
       overPops[i].style.visibility = 'visible';
-      // overPops[i].style.position = 'fixed';
+      overPops[i].style.position = 'fixed';
       overPops[i].classList.add('popup-active');
     };
     closePopupBtns[i].onclick = function closePopup() {
