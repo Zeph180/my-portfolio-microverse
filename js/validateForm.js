@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 function validate() {
   const emailInputValue = document.getElementById('email').value;
   const emailTest = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
 
   /* eslint-disable no-unused-vars */
-  document.forms[0].onsubmit = function (e) {
+  document.forms[0].onsubmit = function testEmail(e) {
     if (emailTest.test(emailInputValue)) {
       document.getElementById('emailError').innerHTML = 'Expect amazing projects';
       document.getElementById('emailError').style.visibility = 'visible';

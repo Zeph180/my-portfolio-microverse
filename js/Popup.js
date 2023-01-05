@@ -102,7 +102,6 @@ const overPops = document.querySelectorAll('.over-pop');
 const navBar = document.querySelector('.nav');
 const navHolder = navBar;
 
-console.log(navHolder);
 for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
