@@ -8,11 +8,11 @@ function validate() {
     if (emailTest.test(emailInputValue)) {
       document.getElementById('emailError').innerHTML = 'Expect amazing projects';
       document.getElementById('emailError').style.visibility = 'visible';
-      document.getElementById('emailError').style.color = 'yellow';
+      document.getElementById('emailError').style.color = 'blue';
     } else {
       document.getElementById('emailError').innerHTML = 'Emails are case sensitive! please enter the email in lowercase';
       document.getElementById('emailError').style.visibility = 'visible';
-      document.getElementById('emailError').style.color = 'purple';
+      document.getElementById('emailError').style.color = 'red';
       e.preventDefault();
     }
   };
