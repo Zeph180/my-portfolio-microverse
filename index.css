@@ -714,6 +714,10 @@ label {
     margin: 0;
   }
 
+  .canopy {
+    margin-left: 25px;
+  }
+
   .work-list {
     height: fit-content;
     margin-left: -4%;
@@ -801,6 +805,8 @@ label {
   .contact-sec p {
     font-size: 14px;
   }
+
+  
 
   .contact-sec input,
   textarea {
