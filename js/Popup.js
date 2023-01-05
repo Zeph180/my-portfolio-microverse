@@ -99,6 +99,8 @@ projects.forEach((project) => {
 const seeProjectBtns = document.querySelectorAll('.see-project');
 const closePopupBtns = document.querySelectorAll('.close-popup-btn');
 const overPops = document.querySelectorAll('.over-pop');
+const navHolder = nav
+console.log(navHolder);
 
 for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
@@ -106,10 +108,12 @@ for (let i = 0; i < overPops.length; i += 1) {
       overPops[i].style.visibility = 'visible';
       overPops[i].style.position = 'fixed';
       overPops[i].classList.add('popup-active');
+      navHolder.style.visibility = 'hidden'
     };
     closePopupBtns[i].onclick = function closePopup() {
       overPops[i].style.visibility = 'hidden';
       overPops[i].classList.remove('popup-active');
+      navHolder.style.visibility = 'visible'
     };
   }
 }
