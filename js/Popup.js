@@ -100,7 +100,6 @@ const seeProjectBtns = document.querySelectorAll('.see-project');
 const closePopupBtns = document.querySelectorAll('.close-popup-btn');
 const overPops = document.querySelectorAll('.over-pop');
 
-console.log(overPops);
 for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
