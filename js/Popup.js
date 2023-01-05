@@ -40,39 +40,44 @@ projects.forEach((project) => {
   const name = project.projectName;
   temp.classList.add('work-card');
   temp.innerHTML = `
-
     <div class="work-image-cont">
         <img src=${project.projectImage.imgUrl} alt=${project.projectImage.alt} >
     </div>
-    <div id="popup" class="popup">
-    <div class="project-cont">
-      <div class="popup-header">
-        <h6 class="project-title">${project.projectName}</h6>
-        <img class="close-popup-btn" src="./assets/closePopupBtn.svg" alt="close button">
+
+      <div class="over-pop">
+      <div id="popup" class="popup">
+      <div class="project-cont">
+        <div class="popup-header">
+          <h6 class="project-title">${project.projectName}</h6>
+          <img class="close-popup-btn" src="./assets/closePopupBtn.svg" alt="close button">
+        </div>
+        <div class="work-list">
+        <p class="canopy">CANOPY</p>
+        ${project.projectExps.map((projectExp) => `<p class="work-list-item">&#8226; ${projectExp}</p>`)}
+        </div>
       </div>
-      <div class="work-list">
-      ${project.projectExps.map((projectExp) => `<p class="work-list-item">&#8226; ${projectExp}</p>`)}
-      </div>
-    </div>
 
     <div class="popup-image-cont">
         <img src=${project.projectImage.imgUrl} alt=${project.projectImage.alt}>
     </div>
 
     <div class="project-cont popup-cont">
-        <p class="popup-desc">
-          ${project.projectDescExt}
-        </p>
+          <p class="popup-desc">
+           ${project.projectDescExt}
+          </p>
+
         <ul>
         ${project.techs.map((tech) => `<li> ${tech} </li>`)}
         </ul>
+        <hr>
     </div>
-
     <div class="popup-btn-cont">
-        <button type="button" class="btn"><a href=${project.projectLinks[0]}>See live <img src="./assets/seeLiveBtn.svg" alt=""></a></button>
-        <button type="button" class="btn"><a href=${project.projectLinks[1]}>See source <img src="./assets/GitHub.svg" alt=""><a/></button>
+      <button type="button" class="btn"><a href=${project.projectLinks[0]}>See live <img src="./assets/seeLiveBtn.svg" alt=""></a></button>
+      <button type="button" class="btn"><a href=${project.projectLinks[1]}>See source <img src="./assets/GitHub.svg" alt=""><a/></button>
     </div>
   </div>
+      </div>
+
     <div class="project-cont">
       <h6 class="project-title">${breakTitle(name, temp)}</h6>
       <div class="work-list">
@@ -91,20 +96,21 @@ projects.forEach((project) => {
   portfolio.append(temp);
 });
 
-const popups = document.querySelectorAll('.popup');
 const seeProjectBtns = document.querySelectorAll('.see-project');
 const closePopupBtns = document.querySelectorAll('.close-popup-btn');
+const overPops = document.querySelectorAll('.over-pop');
 
-for (let i = 0; i < popups.length; i += 1) {
+console.log(overPops);
+for (let i = 0; i < overPops.length; i += 1) {
   for (let j = 0; j < seeProjectBtns.length; j += 1) {
     seeProjectBtns[i].onclick = function showPopup() {
-      popups[i].style.visibility = 'visible';
-      popups[i].style.position = 'fixed';
-      popups[i].classList.add('popup-active');
+      overPops[i].style.visibility = 'visible';
+      overPops[i].style.position = 'fixed';
+      overPops[i].classList.add('popup-active');
     };
     closePopupBtns[i].onclick = function closePopup() {
-      popups[i].style.visibility = 'hidden';
-      popups[i].classList.remove('popup-active');
+      overPops[i].style.visibility = 'hidden';
+      overPops[i].classList.remove('popup-active');
     };
   }
 }
