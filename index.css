@@ -537,7 +537,7 @@ label {
   top: 0;
   position: fixed;
   visibility: visible;
-  }
+}
 
 .popup-header {
   display: flex;
@@ -650,7 +650,7 @@ label {
     height: 20.813rem;
     padding-left: 1rem;
   }
-  
+
   .work-image-cont img {
     width: 100%;
     height: 100%;
@@ -667,7 +667,6 @@ label {
     align-items: center;
     backdrop-filter: blur(4px);
   }
-  
 
   #popup {
     width: 70%;
@@ -682,7 +681,7 @@ label {
     width: 100%;
     height: 65%;
   }
-  
+
   .popup-image-cont img {
     width: 95%;
     height: 100%;
@@ -737,7 +736,8 @@ label {
   .project-cont ul {
     height: 20%;
   }
-/* 
+
+  /*
   .project-cont ul {
     display: block;
     list-style: none;
@@ -806,8 +806,6 @@ label {
   .contact-sec p {
     font-size: 14px;
   }
-
-  
 
   .contact-sec input,
   textarea {
