@@ -4,7 +4,7 @@ const projects = [
   {
     projectName: '5554 ffffff',
     projectExps: ['Backend Dev', '2015'],
-    projectImage: { alt: 'jfffjfjfj', imgUrl: '../assets/firstPjct.png' },
+    projectImage: { alt: 'jfffjfjfj', imgUrl: './assets/firstPjct.png' },
     projectDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     techs: ['html', 'css', 'javascript'],
     projectLinks: ['https://kigozijosephsuubi.me', 'https://github.com/Zeph180/my-portfolio-microverse'],
