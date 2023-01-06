@@ -82,7 +82,7 @@ projects.forEach((project) => {
       <h6 class="project-title">${breakTitle(name, temp)}</h6>
       <div class="work-list">
         <p class="canopy">CANOPY</p>
-        ${project.projectExps.map((projectExp) => `<p class="work-list-item">&#8226; ${projectExp}</p>`)}
+        ${project.projectExps.map(( `<p class="work-list-item">&#8226; ${projectExp}</p>`)}
         </div>
         <p class="project-desc">
           ${project.projectDesc}
