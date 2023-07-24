@@ -26,6 +26,10 @@ nav {
   background-color: #fff;
 }
 
+nav a {
+  transition: font-size 1s;
+}
+
 nav h1 a {
   font-family: 'Poppins', sans-serif;
   color: blue;
@@ -33,6 +37,7 @@ nav h1 a {
   font-style: bold;
   font-size: 18px;
   line-height: 20px;
+  width: 100px;
 }
 
 .fa-bars {
@@ -111,6 +116,10 @@ nav h1 a {
   font-style: normal;
 }
 
+nav a:hover {
+  font-size: 30px;
+}
+
 /* .social-icon */
 .socials-header {
   font-family: 'Poppins', sans-serif;
@@ -125,16 +134,20 @@ nav h1 a {
   list-style: none;
   margin-left: -60px;
   display: flex;
+  height: 40px;
 }
 
 .social-icon {
   float: left;
   margin-left: 20px;
   color: #505f79;
+  font-size: 14px;
+  transition: font-size 1s;
 }
 
 .social-icon:hover {
   color: #396df2;
+  font-size: 25px;
 }
 
 /* PROJECT SECTION */
@@ -844,5 +857,9 @@ label {
 
   .social-icon {
     font-size: 24px;
+  }
+
+  .social-icon:hover {
+    font-size: 30px;
   }
 }
