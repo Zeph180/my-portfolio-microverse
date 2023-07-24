@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+/*
 * {
   box-sizing: border-box;
-}
+} */
 
 body {
   padding: 0;
@@ -596,6 +596,7 @@ label {
     font-weight: 500;
     font-size: 15px;
     padding: 0 0.75rem;
+    cursor: pointer;
   }
 
   .hamburger {
