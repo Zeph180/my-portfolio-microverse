@@ -102,8 +102,8 @@ projects.forEach((project) => {
         <hr>
     </div>
     <div class="popup-btn-cont">
-      <button type="button" class="btn"><a href=${project.projectLinks[0]}>See live <img src="./assets/seeLiveBtn.svg" alt=""></a></button>
-      <button type="button" class="btn"><a href=${project.projectLinks[1]}>See source <img src="./assets/GitHub.svg" alt=""><a/></button>
+      <button type="button" class="btn"><a href=${project.projectLinks[0]} target="blank">See live <img src="./assets/seeLiveBtn.svg" alt=""></a></button>
+      <button type="button" class="btn"><a href=${project.projectLinks[1]} target="blank">See source <img src="./assets/GitHub.svg" alt=""><a/></button>
     </div>
   </div>
       </div>
