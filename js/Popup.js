@@ -2,23 +2,53 @@ const portfolio = document.getElementById('portfolio');
 
 const projects = [
   {
-    projectName: '5554 ffffff',
-    projectExps: ['Backend Dev', '2015'],
-    projectImage: { alt: 'jfffjfjfj', imgUrl: './assets/firstPjct.png' },
-    projectDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    projectName: 'Touch coin',
+    projectExps: ['Frontend Dev', '2023'],
+    projectImage: { alt: 'touch coin', imgUrl: './assets/touchcoindesk.png' },
+    projectDesc: 'A application built with react to provide metrics about crypto coins.',
     techs: ['html', 'css', 'javascript'],
-    projectLinks: ['https://kigozijosephsuubi.me', 'https://github.com/Zeph180/my-portfolio-microverse'],
-    projectDescExt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    projectLinks: ['https://touch-coin-zeph.netlify.app/', 'https://github.com/Zeph180/touch-coin'],
+    projectDescExt: 'A application built with react to provide metrics about crypto coins',
 
   },
   {
-    projectName: 'djdjdj',
-    projectExps: ['Backend Dev', '2015'],
-    projectImage: { alt: 'jfffjfjfj', imgUrl: '../assets/firstPjct.png' },
-    projectDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    techs: ['html', 'css', 'javascript'],
-    projectLinks: ['https://kigozijosephsuubi.me', 'https://github.com/Zeph180/my-portfolio-microverse'],
-    projectDescExt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    projectName: 'Space Travelers',
+    projectExps: ['Frontend Dev', '2023'],
+    projectImage: { alt: 'space travelers hub', imgUrl: '../assets/space.png' },
+    projectDesc: 'A website built with React that allows users to book rockets to space. It also provides details about rockets, departure dates and prices..',
+    techs: ['React', 'css', 'javascript'],
+    projectLinks: ['https://space-travellers-hub-zeph-gathoni.netlify.app/', 'https://github.com/Zeph180/space-traveller-s-hub'],
+    projectDescExt: 'A website built with React that allows users to book rockets to space. It also provides details about rockets, departure dates and prices.',
+
+  },
+  {
+    projectName: 'Music Association',
+    projectExps: ['Frontend Dev', '2023'],
+    projectImage: { alt: 'space travelers hub', imgUrl: '../assets/umah.png' },
+    projectDesc: 'A website built for Uganda Music Association. It shows up coming events, program schedule and a list of featured speakers.',
+    techs: ['HTML', 'css', 'javascript'],
+    projectLinks: ['https://uganda-music-association.netlify.app/', 'https://github.com/Zeph180/UmaDay22'],
+    projectDescExt: 'A website built with html, CSS and JavaScript for Uganda Music Association. It shows up coming events, program schedule and a list of featured speakers.',
+
+  },
+  {
+    projectName: 'Awesome Books',
+    projectExps: ['Frontend Dev', '2023'],
+    projectImage: { alt: 'awesome books screenshot', imgUrl: '../assets/awesome.png' },
+    projectDesc: 'A book list app built with JavaScript. It allows users to add and remove books from a list.',
+    techs: ['HTML', 'css', 'javascript'],
+    projectLinks: ['https://uganda-music-association.netlify.app/', 'https://github.com/Zeph180/UmaDay22'],
+    projectDescExt: 'A book list app built with JavaScript. It allows users to add and remove books from a list.',
+
+  },
+  {
+    projectName: 'Great Farm',
+    projectExps: ['Frontend Dev', '2023'],
+    projectImage: { alt: 'great farm screenshot', imgUrl: '../assets/farm.png' },
+    projectDesc: 'A website built with html, CSS and JavaScript for a local farm. It shows products, services and contact information.',
+    techs: ['HTML', 'css', 'javascript'],
+    projectLinks: ['https://great-farm.netlify.app/', 'https://github.com/Zeph180/UmaDay22'],
+    projectDescExt: 'A website built with html, CSS and JavaScript for a local farm. It shows products, services and contact information.',
 
   },
 ];
