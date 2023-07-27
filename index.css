@@ -366,19 +366,18 @@ nav a:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-.lang-cont ul {
-  width: 327px;
-}
-
 .lang-logo {
   list-style: none;
   display: flex;
   align-items: center;
   width: 303px;
-  height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
   font-size: 15px;
+  flex-direction: column;
+  height: 100px;
+  margin-right: 12px;
+  justify-content: center;
 }
 
 .tech-icon {
@@ -389,14 +388,7 @@ nav a:hover {
 .lang-cont ul {
   display: flex;
   padding-left: 20px;
-}
-
-.lang-logo {
-  flex-direction: column;
-  height: 100px;
-  margin-right: 12px;
-  /* align-items: center; */
-  justify-content: center;
+  width: 327px;
 }
 
 .contact-cont {
