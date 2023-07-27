@@ -22,10 +22,7 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+<div align="center"><br/>
 
  
 
@@ -49,11 +46,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 my-portfolio-microverse <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**my-portfolio-microverse** is a small project to help master all the tools and best practices learnt in the previous steps.
+**Awesome books** is a small project to help master htmlDom Manipulation with javascript
 
 ## 🛠 Built With <a name="">html and css</a>
 <br>-This project is available online at https://www.kigozijosephsuubi.me
