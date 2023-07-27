@@ -284,8 +284,10 @@ nav a:hover {
 }
 
 .resume-btn {
-  margin-top: 35px;
+  margin-top: 10px;
   margin-left: 0;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .btn a:hover {
@@ -362,6 +364,7 @@ nav a:hover {
   flex-direction: column;
   height: 72px;
   padding-right: 100px;
+  margin-top: 30px;
   margin-bottom: 300px;
   font-family: 'Poppins', sans-serif;
 }
@@ -378,6 +381,11 @@ nav a:hover {
   height: 100px;
   margin-right: 12px;
   justify-content: center;
+}
+
+.lang-logo:hover {
+  background-color: #89a7f1;
+  color: white;
 }
 
 .tech-icon {
@@ -605,6 +613,10 @@ label {
   .hamburger {
     color: red;
     visibility: hidden;
+  }
+
+  .lang-cont {
+    margin-top: 0;
   }
 
   .lang-cont ul {
