@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/*
-* {
-  box-sizing: border-box;
-} */
-
 body {
   padding: 0;
   margin: 0;
@@ -352,6 +347,10 @@ nav a:hover {
   padding-left: 24px;
 }
 
+.drop-header-active p {
+  margin: 0;
+}
+
 .arrow {
   margin-right: 15%;
   color: #5e6c84;
@@ -375,7 +374,6 @@ nav a:hover {
   list-style: none;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
   width: 303px;
   height: 66.72px;
   background: #f7f7f9;
@@ -383,9 +381,22 @@ nav a:hover {
   font-size: 15px;
 }
 
-.lang-logo img {
-  margin-right: 20px;
-  margin-left: 10px;
+.tech-icon {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.lang-cont ul {
+  display: flex;
+  padding-left: 20px;
+}
+
+.lang-logo {
+  flex-direction: column;
+  height: 100px;
+  margin-right: 12px;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .contact-cont {
@@ -611,7 +622,7 @@ label {
 
   .lang-cont ul li {
     flex-direction: column;
-    height: 100px;
+    height: 90px;
     margin-right: 12px;
   }
 
