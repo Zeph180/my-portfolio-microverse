@@ -22,10 +22,6 @@ nav {
   background-color: #fff;
 }
 
-nav a {
-  transition: font-size 1s;
-}
-
 nav h1 a {
   font-family: 'Poppins', sans-serif;
   color: blue;
@@ -34,6 +30,7 @@ nav h1 a {
   font-size: 18px;
   line-height: 20px;
   width: 100px;
+  transition: font-size 1s;
 }
 
 .fa-bars {
@@ -601,7 +598,7 @@ label {
     margin-right: 8.75rem;
   }
 
-  .nav li {
+  .nav li a {
     font-family: "poppins", sans-serif;
     color: #344563;
     font-weight: 500;
@@ -611,12 +608,7 @@ label {
   }
 
   .hamburger {
-    color: red;
     visibility: hidden;
-  }
-
-  .lang-cont {
-    margin-top: 0;
   }
 
   .lang-cont ul {
@@ -809,6 +801,7 @@ label {
   .lang-cont {
     width: 45%;
     padding-right: 0;
+    margin-top: 0;
   }
 
   .arrow {
